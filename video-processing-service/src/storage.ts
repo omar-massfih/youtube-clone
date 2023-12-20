@@ -1,8 +1,6 @@
 import { Storage } from "@google-cloud/storage";
-import fs, { fdatasync } from "fs";
+import fs from "fs";
 import ffmpeg from "fluent-ffmpeg";
-import { rejects } from "assert";
-import { resolve } from "path";
 
 const storage = new Storage();
 
